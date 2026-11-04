@@ -1,5 +1,117 @@
 {
-  "collected_at": "2026-11-04T19:23+09:00",
+  "collected_at": "2026-11-04T20:53+09:00",
+  "stocks": {
+    "E1": {
+      "status": "ok",
+      "date": "2026-11-04",
+      "close": 83300.0,
+      "prev_close": 82700.0,
+      "change": 600.0,
+      "change_pct": 0.73,
+      "source": "https://finance.naver.com/item/sise.naver?code=017940"
+    },
+    "LS네트웍스": {
+      "status": "ok",
+      "date": "2026-11-04",
+      "close": 2715.0,
+      "prev_close": 2650.0,
+      "change": 65.0,
+      "change_pct": 2.45,
+      "source": "https://finance.naver.com/item/sise.naver?code=000680"
+    },
+    "LS증권": {
+      "status": "ok",
+      "date": "2026-11-04",
+      "close": 6090.0,
+      "prev_close": 6030.0,
+      "change": 60.0,
+      "change_pct": 1.0,
+      "source": "https://finance.naver.com/item/sise.naver?code=078020"
+    },
+    "LS": {
+      "status": "ok",
+      "date": "2026-11-04",
+      "close": 213000.0,
+      "prev_close": 207000.0,
+      "change": 6000.0,
+      "change_pct": 2.9,
+      "source": "https://finance.naver.com/item/sise.naver?code=006260"
+    },
+    "LS ELECTRIC": {
+      "status": "ok",
+      "date": "2026-11-04",
+      "close": 153600.0,
+      "prev_close": 153300.0,
+      "change": 300.0,
+      "change_pct": 0.2,
+      "source": "https://finance.naver.com/item/sise.naver?code=010120"
+    },
+    "LS에코에너지": {
+      "status": "ok",
+      "date": "2026-11-04",
+      "close": 47450.0,
+      "prev_close": 46450.0,
+      "change": 1000.0,
+      "change_pct": 2.15,
+      "source": "https://finance.naver.com/item/sise.naver?code=229640"
+    },
+    "LS마린솔루션": {
+      "status": "ok",
+      "date": "2026-11-04",
+      "close": 26250.0,
+      "prev_close": 25300.0,
+      "change": 950.0,
+      "change_pct": 3.75,
+      "source": "https://finance.naver.com/item/sise.naver?code=060370"
+    },
+    "가온전선": {
+      "status": "ok",
+      "date": "2026-11-04",
+      "close": 244000.0,
+      "prev_close": 233000.0,
+      "change": 11000.0,
+      "change_pct": 4.72,
+      "source": "https://finance.naver.com/item/sise.naver?code=000500"
+    },
+    "LS머트리얼즈": {
+      "status": "ok",
+      "date": "2026-11-04",
+      "close": 11040.0,
+      "prev_close": 10540.0,
+      "change": 500.0,
+      "change_pct": 4.74,
+      "source": "https://finance.naver.com/item/sise.naver?code=417200"
+    },
+    "예스코홀딩스": {
+      "status": "ok",
+      "date": "2026-11-04",
+      "close": 13800.0,
+      "prev_close": 13690.0,
+      "change": 110.0,
+      "change_pct": 0.8,
+      "source": "https://finance.naver.com/item/sise.naver?code=015360"
+    }
+  },
+  "indexes": {
+    "코스피": {
+      "status": "ok",
+      "date": "2026-11-04",
+      "close": 5683.8,
+      "prev_close": 5648.79,
+      "change": 35.01,
+      "change_pct": 0.62,
+      "source": "https://finance.naver.com/item/sise.naver?code=KOSPI"
+    },
+    "코스닥": {
+      "status": "ok",
+      "date": "2026-11-04",
+      "close": 714.95,
+      "prev_close": 704.39,
+      "change": 10.56,
+      "change_pct": 1.5,
+      "source": "https://finance.naver.com/item/sise.naver?code=KOSDAQ"
+    }
+  },
   "fx": {
     "status": "ok",
     "name": "USD/KRW 매매기준율",
@@ -21,10 +133,6 @@
     "prev_value": 4.04057,
     "change": 0.0073,
     "source": "https://www.global-rates.com/en/interest-rates/cme-term-sofr/2/term-sofr-interest-3-months/"
-  },
-  "sofr_90d_average": {
-    "status": "error",
-    "error": "HTTPError: HTTP Error 400: Bad Request"
   },
   "disclosures": {
     "status": "ok",
