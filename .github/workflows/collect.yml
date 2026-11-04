@@ -1,0 +1,31 @@
+name: collect-morning-data
+
+on:
+  schedule:
+    - cron: "20 22 * * *" # 매일 07:20 KST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Collect
+        env:
+          OPENDART_API_KEY: ${{ secrets.OPENDART_API_KEY }}
+          OPINET_API_KEY: ${{ secrets.OPINET_API_KEY }}
+        run: python collect.py
+      - name: Save
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/latest.json
+          git diff --cached --quiet || git commit -m "Update morning data"
+          git push
