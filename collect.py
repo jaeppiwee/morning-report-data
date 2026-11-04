@@ -28,6 +28,7 @@ STOCKS = {
     "LS머트리얼즈": "417200",
     "예스코홀딩스": "015360",
 }
+INDEXES = {"코스피": "KOSPI", "코스닥": "KOSDAQ"}
 DISCLOSURE_CODES = set(STOCKS.values()) | {"018670"}  # SK가스 포함
 
 
@@ -45,6 +46,39 @@ def clean_error(exc):
 
 def to_number(text):
     return float(str(text).replace(",", "").strip())
+
+
+def parse_naver_chart(xml_text):
+    """네이버 차트 XML을 오래된 날짜부터 [(YYYY-MM-DD, 종가)]로 바꿉니다."""
+    rows = []
+    for item in ET.fromstring(xml_text).iter("item"):
+        parts = item.attrib["data"].split("|")
+        day = parts[0]
+        rows.append((f"{day[:4]}-{day[4:6]}-{day[6:8]}", to_number(parts[4])))
+    return rows
+
+
+def quote(symbol):
+    url = (
+        "https://fchart.stock.naver.com/sise.nhn?"
+        f"symbol={symbol}&timeframe=day&count=5&requestType=0"
+    )
+    rows = parse_naver_chart(fetch(url, "euc-kr"))
+    if len(rows) < 2:
+        raise ValueError("시세 행이 2개 미만입니다")
+    (_, prev_close), (date, close) = rows[-2], rows[-1]
+    if close <= 0 or prev_close <= 0:
+        raise ValueError("시세 값이 0 이하입니다")
+    change = close - prev_close
+    return {
+        "status": "ok",
+        "date": date,
+        "close": close,
+        "prev_close": prev_close,
+        "change": round(change, 2),
+        "change_pct": round(change / prev_close * 100, 2),
+        "source": f"https://finance.naver.com/item/sise.naver?code={symbol}",
+    }
 
 
 def parse_smbs(xml_text):
@@ -152,7 +186,7 @@ def safe(func, *args):
     try:
         return func(*args)
     except Exception as exc:  # 한 항목이 실패해도 나머지는 계속 수집합니다.
-        print(f"[실패] {func.__name__}: {clean_error(exc)}", file=sys.stderr)
+        print(f"[실패] {func.__name__}{args if func is quote else ''}: {clean_error(exc)}", file=sys.stderr)
         return {"status": "error", "error": clean_error(exc)}
 
 
@@ -161,6 +195,8 @@ def main():
     today = now.date()
     result = {
         "collected_at": now.isoformat(timespec="minutes"),
+        "stocks": {name: safe(quote, code) for name, code in STOCKS.items()},
+        "indexes": {name: safe(quote, code) for name, code in INDEXES.items()},
         "fx": safe(fx, today),
         "diesel": safe(diesel),
         "term_sofr_3m": safe(term_sofr),
