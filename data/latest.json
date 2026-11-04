@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-04T20:53+09:00",
+  "collected_at": "2026-11-05T08:01+09:00",
   "stocks": {
     "E1": {
       "status": "ok",
@@ -115,11 +115,11 @@
   "fx": {
     "status": "ok",
     "name": "USD/KRW 매매기준율",
-    "notice_date": "26.11.04",
-    "value": 1341.2,
+    "notice_date": "26.11.05",
+    "value": 1340.7,
     "source": "http://www.smbs.biz/ExRate/StdExRate.jsp",
-    "prev_value": 1341.0,
-    "change": 0.2
+    "prev_value": 1341.2,
+    "change": -0.5
   },
   "diesel": {
     "status": "error",
@@ -136,8 +136,8 @@
   },
   "disclosures": {
     "status": "ok",
-    "from": "20261101",
-    "to": "20261104",
+    "from": "20261102",
+    "to": "20261105",
     "items": [
       {
         "company": "SK가스",
