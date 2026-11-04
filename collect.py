@@ -116,21 +116,6 @@ def term_sofr():
     }
 
 
-def sofr_90d_average():
-    url = "https://markets.newyorkfed.org/api/rates/averages/sofr/last/2.json"
-    rows = [r for r in json.loads(fetch(url))["refRates"] if r.get("type") == "SOFRAI" or "average90day" in r]
-    rows = sorted((r for r in rows if "average90day" in r), key=lambda r: r["effectiveDate"])
-    if not rows:
-        raise ValueError("90일 평균 값을 찾지 못했습니다")
-    return {
-        "status": "ok",
-        "name": "SOFR 90일 평균 (뉴욕 연은)",
-        "date": rows[-1]["effectiveDate"],
-        "value": rows[-1]["average90day"],
-        "source": url,
-    }
-
-
 def disclosures(today):
     key = os.environ.get("OPENDART_API_KEY")
     if not key:
@@ -179,7 +164,6 @@ def main():
         "fx": safe(fx, today),
         "diesel": safe(diesel),
         "term_sofr_3m": safe(term_sofr),
-        "sofr_90d_average": safe(sofr_90d_average),
         "disclosures": safe(disclosures, today),
     }
     path = Path("data/latest.json")
