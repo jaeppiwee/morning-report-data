@@ -1,125 +1,125 @@
 {
-  "collected_at": "2026-11-05T08:01+09:00",
+  "collected_at": "2026-11-06T08:02+09:00",
   "stocks": {
     "E1": {
       "status": "ok",
-      "date": "2026-11-04",
-      "close": 83300.0,
-      "prev_close": 82700.0,
-      "change": 600.0,
-      "change_pct": 0.73,
+      "date": "2026-11-05",
+      "close": 83000.0,
+      "prev_close": 83300.0,
+      "change": -300.0,
+      "change_pct": -0.36,
       "source": "https://finance.naver.com/item/sise.naver?code=017940"
     },
     "LS네트웍스": {
       "status": "ok",
-      "date": "2026-11-04",
-      "close": 2715.0,
-      "prev_close": 2650.0,
-      "change": 65.0,
-      "change_pct": 2.45,
+      "date": "2026-11-05",
+      "close": 2640.0,
+      "prev_close": 2715.0,
+      "change": -75.0,
+      "change_pct": -2.76,
       "source": "https://finance.naver.com/item/sise.naver?code=000680"
     },
     "LS증권": {
       "status": "ok",
-      "date": "2026-11-04",
-      "close": 6090.0,
-      "prev_close": 6030.0,
-      "change": 60.0,
-      "change_pct": 1.0,
+      "date": "2026-11-05",
+      "close": 6000.0,
+      "prev_close": 6090.0,
+      "change": -90.0,
+      "change_pct": -1.48,
       "source": "https://finance.naver.com/item/sise.naver?code=078020"
     },
     "LS": {
       "status": "ok",
-      "date": "2026-11-04",
-      "close": 213000.0,
-      "prev_close": 207000.0,
-      "change": 6000.0,
-      "change_pct": 2.9,
+      "date": "2026-11-05",
+      "close": 190200.0,
+      "prev_close": 213000.0,
+      "change": -22800.0,
+      "change_pct": -10.7,
       "source": "https://finance.naver.com/item/sise.naver?code=006260"
     },
     "LS ELECTRIC": {
       "status": "ok",
-      "date": "2026-11-04",
-      "close": 153600.0,
-      "prev_close": 153300.0,
-      "change": 300.0,
-      "change_pct": 0.2,
+      "date": "2026-11-05",
+      "close": 130000.0,
+      "prev_close": 153600.0,
+      "change": -23600.0,
+      "change_pct": -15.36,
       "source": "https://finance.naver.com/item/sise.naver?code=010120"
     },
     "LS에코에너지": {
       "status": "ok",
-      "date": "2026-11-04",
-      "close": 47450.0,
-      "prev_close": 46450.0,
-      "change": 1000.0,
-      "change_pct": 2.15,
+      "date": "2026-11-05",
+      "close": 41400.0,
+      "prev_close": 47450.0,
+      "change": -6050.0,
+      "change_pct": -12.75,
       "source": "https://finance.naver.com/item/sise.naver?code=229640"
     },
     "LS마린솔루션": {
       "status": "ok",
-      "date": "2026-11-04",
-      "close": 26250.0,
-      "prev_close": 25300.0,
-      "change": 950.0,
-      "change_pct": 3.75,
+      "date": "2026-11-05",
+      "close": 25400.0,
+      "prev_close": 26250.0,
+      "change": -850.0,
+      "change_pct": -3.24,
       "source": "https://finance.naver.com/item/sise.naver?code=060370"
     },
     "가온전선": {
       "status": "ok",
-      "date": "2026-11-04",
-      "close": 244000.0,
-      "prev_close": 233000.0,
-      "change": 11000.0,
-      "change_pct": 4.72,
+      "date": "2026-11-05",
+      "close": 205000.0,
+      "prev_close": 244000.0,
+      "change": -39000.0,
+      "change_pct": -15.98,
       "source": "https://finance.naver.com/item/sise.naver?code=000500"
     },
     "LS머트리얼즈": {
       "status": "ok",
-      "date": "2026-11-04",
-      "close": 11040.0,
-      "prev_close": 10540.0,
-      "change": 500.0,
-      "change_pct": 4.74,
+      "date": "2026-11-05",
+      "close": 9540.0,
+      "prev_close": 11040.0,
+      "change": -1500.0,
+      "change_pct": -13.59,
       "source": "https://finance.naver.com/item/sise.naver?code=417200"
     },
     "예스코홀딩스": {
       "status": "ok",
-      "date": "2026-11-04",
-      "close": 13800.0,
-      "prev_close": 13690.0,
-      "change": 110.0,
-      "change_pct": 0.8,
+      "date": "2026-11-05",
+      "close": 13770.0,
+      "prev_close": 13800.0,
+      "change": -30.0,
+      "change_pct": -0.22,
       "source": "https://finance.naver.com/item/sise.naver?code=015360"
     }
   },
   "indexes": {
     "코스피": {
       "status": "ok",
-      "date": "2026-11-04",
-      "close": 5683.8,
-      "prev_close": 5648.79,
-      "change": 35.01,
-      "change_pct": 0.62,
+      "date": "2026-11-05",
+      "close": 5383.8,
+      "prev_close": 5683.8,
+      "change": -300.0,
+      "change_pct": -5.28,
       "source": "https://finance.naver.com/item/sise.naver?code=KOSPI"
     },
     "코스닥": {
       "status": "ok",
-      "date": "2026-11-04",
-      "close": 714.95,
-      "prev_close": 704.39,
-      "change": 10.56,
-      "change_pct": 1.5,
+      "date": "2026-11-05",
+      "close": 678.41,
+      "prev_close": 714.95,
+      "change": -36.54,
+      "change_pct": -5.11,
       "source": "https://finance.naver.com/item/sise.naver?code=KOSDAQ"
     }
   },
   "fx": {
     "status": "ok",
     "name": "USD/KRW 매매기준율",
-    "notice_date": "26.11.05",
-    "value": 1340.7,
+    "notice_date": "26.11.06",
+    "value": 1342.0,
     "source": "http://www.smbs.biz/ExRate/StdExRate.jsp",
-    "prev_value": 1341.2,
-    "change": -0.5
+    "prev_value": 1340.7,
+    "change": 1.3
   },
   "diesel": {
     "status": "error",
@@ -128,17 +128,73 @@
   "term_sofr_3m": {
     "status": "ok",
     "name": "CME Term SOFR 3M",
-    "date": "2026-11-03",
-    "value": 4.04787,
-    "prev_value": 4.04057,
-    "change": 0.0073,
+    "date": "2026-11-04",
+    "value": 4.05614,
+    "prev_value": 4.04787,
+    "change": 0.00827,
     "source": "https://www.global-rates.com/en/interest-rates/cme-term-sofr/2/term-sofr-interest-3-months/"
   },
   "disclosures": {
     "status": "ok",
-    "from": "20261102",
-    "to": "20261105",
+    "from": "20261103",
+    "to": "20261106",
     "items": [
+      {
+        "company": "LS",
+        "stock_code": "006260",
+        "report": "약관에의한금융거래시계열금융회사의거래상대방의공시",
+        "date": "20261105",
+        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105000377"
+      },
+      {
+        "company": "LS",
+        "stock_code": "006260",
+        "report": "특수관계인에대한출자",
+        "date": "20261105",
+        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105000352"
+      },
+      {
+        "company": "LS",
+        "stock_code": "006260",
+        "report": "단기차입금증가결정(자회사의 주요경영사항)",
+        "date": "20261105",
+        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105800557"
+      },
+      {
+        "company": "엘에스일렉트릭",
+        "stock_code": "010120",
+        "report": "단기차입금증가결정",
+        "date": "20261105",
+        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105800556"
+      },
+      {
+        "company": "엘에스일렉트릭",
+        "stock_code": "010120",
+        "report": "약관에의한금융거래시계열금융회사의거래상대방의공시",
+        "date": "20261105",
+        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105000308"
+      },
+      {
+        "company": "엘에스일렉트릭",
+        "stock_code": "010120",
+        "report": "영업양도결정(종속회사의주요경영사항)",
+        "date": "20261105",
+        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105800509"
+      },
+      {
+        "company": "SK가스",
+        "stock_code": "018670",
+        "report": "합병등종료보고서(합병)",
+        "date": "20261105",
+        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105000217"
+      },
+      {
+        "company": "INVENI",
+        "stock_code": "015360",
+        "report": "대표이사(대표집행임원)변경(안내공시)",
+        "date": "20261105",
+        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105800286"
+      },
       {
         "company": "SK가스",
         "stock_code": "018670",
