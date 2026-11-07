@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-07T07:57+09:00",
+  "collected_at": "2026-11-08T07:53+09:00",
   "stocks": {
     "E1": {
       "status": "ok",
@@ -128,16 +128,16 @@
   "term_sofr_3m": {
     "status": "ok",
     "name": "CME Term SOFR 3M",
-    "date": "2026-11-05",
-    "value": 4.06688,
-    "prev_value": 4.05614,
-    "change": 0.01074,
+    "date": "2026-11-06",
+    "value": 4.04785,
+    "prev_value": 4.06688,
+    "change": -0.01903,
     "source": "https://www.global-rates.com/en/interest-rates/cme-term-sofr/2/term-sofr-interest-3-months/"
   },
   "disclosures": {
     "status": "ok",
-    "from": "20261104",
-    "to": "20261107",
+    "from": "20261105",
+    "to": "20261108",
     "items": [
       {
         "company": "LS",
@@ -215,111 +215,6 @@
         "report": "대표이사(대표집행임원)변경(안내공시)",
         "date": "20261105",
         "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105800286"
-      },
-      {
-        "company": "SK가스",
-        "stock_code": "018670",
-        "report": "타인에대한채무보증결정",
-        "date": "20261104",
-        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261104800686"
-      },
-      {
-        "company": "SK가스",
-        "stock_code": "018670",
-        "report": "[기재정정]타인에대한채무보증결정",
-        "date": "20261104",
-        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261104800675"
-      },
-      {
-        "company": "SK가스",
-        "stock_code": "018670",
-        "report": "연결재무제표기준영업(잠정)실적(공정공시)",
-        "date": "20261104",
-        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261104800663"
-      },
-      {
-        "company": "SK가스",
-        "stock_code": "018670",
-        "report": "기업설명회(IR)개최(안내공시)",
-        "date": "20261104",
-        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261104800582"
-      },
-      {
-        "company": "가온전선",
-        "stock_code": "000500",
-        "report": "약관에의한금융거래시계열금융회사의거래상대방의공시",
-        "date": "20261104",
-        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261104000191"
-      },
-      {
-        "company": "가온전선",
-        "stock_code": "000500",
-        "report": "동일인등출자계열회사와의상품ㆍ용역거래",
-        "date": "20261104",
-        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261104000189"
-      },
-      {
-        "company": "가온전선",
-        "stock_code": "000500",
-        "report": "동일인등출자계열회사와의상품ㆍ용역거래",
-        "date": "20261104",
-        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261104000187"
-      },
-      {
-        "company": "가온전선",
-        "stock_code": "000500",
-        "report": "동일인등출자계열회사와의상품ㆍ용역거래",
-        "date": "20261104",
-        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261104000186"
-      },
-      {
-        "company": "가온전선",
-        "stock_code": "000500",
-        "report": "동일인등출자계열회사와의상품ㆍ용역거래",
-        "date": "20261104",
-        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261104000185"
-      },
-      {
-        "company": "가온전선",
-        "stock_code": "000500",
-        "report": "동일인등출자계열회사와의상품ㆍ용역거래",
-        "date": "20261104",
-        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261104000182"
-      },
-      {
-        "company": "가온전선",
-        "stock_code": "000500",
-        "report": "동일인등출자계열회사와의상품ㆍ용역거래",
-        "date": "20261104",
-        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261104000181"
-      },
-      {
-        "company": "INVENI",
-        "stock_code": "015360",
-        "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-        "date": "20261104",
-        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261104000166"
-      },
-      {
-        "company": "INVENI",
-        "stock_code": "015360",
-        "report": "주식등의대량보유상황보고서(일반)",
-        "date": "20261104",
-        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261104000160"
-      },
-      {
-        "company": "INVENI",
-        "stock_code": "015360",
-        "report": "최대주주등소유주식변동신고서",
-        "date": "20261104",
-        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261104800280"
-      },
-      {
-        "company": "E1",
-        "stock_code": "017940",
-        "report": "주식등의대량보유상황보고서(일반)",
-        "date": "20261104",
-        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261104000081"
       }
     ]
   }
