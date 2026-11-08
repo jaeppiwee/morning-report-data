@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-08T07:53+09:00",
+  "collected_at": "2026-11-09T07:53+09:00",
   "stocks": {
     "E1": {
       "status": "ok",
@@ -115,11 +115,11 @@
   "fx": {
     "status": "ok",
     "name": "USD/KRW 매매기준율",
-    "notice_date": "26.11.06",
-    "value": 1342.0,
+    "notice_date": "26.11.09",
+    "value": 1357.9,
     "source": "http://www.smbs.biz/ExRate/StdExRate.jsp",
-    "prev_value": 1340.7,
-    "change": 1.3
+    "prev_value": 1342.0,
+    "change": 15.9
   },
   "diesel": {
     "status": "error",
@@ -136,8 +136,8 @@
   },
   "disclosures": {
     "status": "ok",
-    "from": "20261105",
-    "to": "20261108",
+    "from": "20261106",
+    "to": "20261109",
     "items": [
       {
         "company": "LS",
@@ -159,62 +159,6 @@
         "report": "주식등의대량보유상황보고서(일반)",
         "date": "20261106",
         "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106000032"
-      },
-      {
-        "company": "LS",
-        "stock_code": "006260",
-        "report": "약관에의한금융거래시계열금융회사의거래상대방의공시",
-        "date": "20261105",
-        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105000377"
-      },
-      {
-        "company": "LS",
-        "stock_code": "006260",
-        "report": "특수관계인에대한출자",
-        "date": "20261105",
-        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105000352"
-      },
-      {
-        "company": "LS",
-        "stock_code": "006260",
-        "report": "단기차입금증가결정(자회사의 주요경영사항)",
-        "date": "20261105",
-        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105800557"
-      },
-      {
-        "company": "엘에스일렉트릭",
-        "stock_code": "010120",
-        "report": "단기차입금증가결정",
-        "date": "20261105",
-        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105800556"
-      },
-      {
-        "company": "엘에스일렉트릭",
-        "stock_code": "010120",
-        "report": "약관에의한금융거래시계열금융회사의거래상대방의공시",
-        "date": "20261105",
-        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105000308"
-      },
-      {
-        "company": "엘에스일렉트릭",
-        "stock_code": "010120",
-        "report": "영업양도결정(종속회사의주요경영사항)",
-        "date": "20261105",
-        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105800509"
-      },
-      {
-        "company": "SK가스",
-        "stock_code": "018670",
-        "report": "합병등종료보고서(합병)",
-        "date": "20261105",
-        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105000217"
-      },
-      {
-        "company": "INVENI",
-        "stock_code": "015360",
-        "report": "대표이사(대표집행임원)변경(안내공시)",
-        "date": "20261105",
-        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105800286"
       }
     ]
   }
