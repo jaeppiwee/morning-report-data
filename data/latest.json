@@ -1,125 +1,125 @@
 {
-  "collected_at": "2026-11-09T07:53+09:00",
+  "collected_at": "2026-11-10T08:00+09:00",
   "stocks": {
     "E1": {
       "status": "ok",
-      "date": "2026-11-06",
-      "close": 80700.0,
-      "prev_close": 83000.0,
-      "change": -2300.0,
-      "change_pct": -2.77,
+      "date": "2026-11-09",
+      "close": 80300.0,
+      "prev_close": 80700.0,
+      "change": -400.0,
+      "change_pct": -0.5,
       "source": "https://finance.naver.com/item/sise.naver?code=017940"
     },
     "LS네트웍스": {
       "status": "ok",
-      "date": "2026-11-06",
-      "close": 2630.0,
-      "prev_close": 2640.0,
-      "change": -10.0,
-      "change_pct": -0.38,
+      "date": "2026-11-09",
+      "close": 2550.0,
+      "prev_close": 2630.0,
+      "change": -80.0,
+      "change_pct": -3.04,
       "source": "https://finance.naver.com/item/sise.naver?code=000680"
     },
     "LS증권": {
       "status": "ok",
-      "date": "2026-11-06",
-      "close": 5860.0,
-      "prev_close": 6000.0,
-      "change": -140.0,
-      "change_pct": -2.33,
+      "date": "2026-11-09",
+      "close": 5780.0,
+      "prev_close": 5860.0,
+      "change": -80.0,
+      "change_pct": -1.37,
       "source": "https://finance.naver.com/item/sise.naver?code=078020"
     },
     "LS": {
       "status": "ok",
-      "date": "2026-11-06",
-      "close": 175500.0,
-      "prev_close": 190200.0,
-      "change": -14700.0,
-      "change_pct": -7.73,
+      "date": "2026-11-09",
+      "close": 171000.0,
+      "prev_close": 175500.0,
+      "change": -4500.0,
+      "change_pct": -2.56,
       "source": "https://finance.naver.com/item/sise.naver?code=006260"
     },
     "LS ELECTRIC": {
       "status": "ok",
-      "date": "2026-11-06",
-      "close": 119000.0,
-      "prev_close": 130000.0,
-      "change": -11000.0,
-      "change_pct": -8.46,
+      "date": "2026-11-09",
+      "close": 109200.0,
+      "prev_close": 119000.0,
+      "change": -9800.0,
+      "change_pct": -8.24,
       "source": "https://finance.naver.com/item/sise.naver?code=010120"
     },
     "LS에코에너지": {
       "status": "ok",
-      "date": "2026-11-06",
-      "close": 38700.0,
-      "prev_close": 41400.0,
-      "change": -2700.0,
-      "change_pct": -6.52,
+      "date": "2026-11-09",
+      "close": 36500.0,
+      "prev_close": 38700.0,
+      "change": -2200.0,
+      "change_pct": -5.68,
       "source": "https://finance.naver.com/item/sise.naver?code=229640"
     },
     "LS마린솔루션": {
       "status": "ok",
-      "date": "2026-11-06",
-      "close": 24850.0,
-      "prev_close": 25400.0,
-      "change": -550.0,
-      "change_pct": -2.17,
+      "date": "2026-11-09",
+      "close": 24450.0,
+      "prev_close": 24850.0,
+      "change": -400.0,
+      "change_pct": -1.61,
       "source": "https://finance.naver.com/item/sise.naver?code=060370"
     },
     "가온전선": {
       "status": "ok",
-      "date": "2026-11-06",
-      "close": 186700.0,
-      "prev_close": 204500.0,
-      "change": -17800.0,
-      "change_pct": -8.7,
+      "date": "2026-11-09",
+      "close": 172600.0,
+      "prev_close": 186700.0,
+      "change": -14100.0,
+      "change_pct": -7.55,
       "source": "https://finance.naver.com/item/sise.naver?code=000500"
     },
     "LS머트리얼즈": {
       "status": "ok",
-      "date": "2026-11-06",
-      "close": 9070.0,
-      "prev_close": 9540.0,
-      "change": -470.0,
-      "change_pct": -4.93,
+      "date": "2026-11-09",
+      "close": 8660.0,
+      "prev_close": 9070.0,
+      "change": -410.0,
+      "change_pct": -4.52,
       "source": "https://finance.naver.com/item/sise.naver?code=417200"
     },
     "예스코홀딩스": {
       "status": "ok",
-      "date": "2026-11-06",
-      "close": 13380.0,
-      "prev_close": 13770.0,
-      "change": -390.0,
-      "change_pct": -2.83,
+      "date": "2026-11-09",
+      "close": 13400.0,
+      "prev_close": 13380.0,
+      "change": 20.0,
+      "change_pct": 0.15,
       "source": "https://finance.naver.com/item/sise.naver?code=015360"
     }
   },
   "indexes": {
     "코스피": {
       "status": "ok",
-      "date": "2026-11-06",
-      "close": 5059.69,
-      "prev_close": 5383.8,
-      "change": -324.11,
-      "change_pct": -6.02,
+      "date": "2026-11-09",
+      "close": 5018.85,
+      "prev_close": 5059.69,
+      "change": -40.84,
+      "change_pct": -0.81,
       "source": "https://finance.naver.com/item/sise.naver?code=KOSPI"
     },
     "코스닥": {
       "status": "ok",
-      "date": "2026-11-06",
-      "close": 644.27,
-      "prev_close": 678.41,
-      "change": -34.14,
-      "change_pct": -5.03,
+      "date": "2026-11-09",
+      "close": 638.97,
+      "prev_close": 644.27,
+      "change": -5.3,
+      "change_pct": -0.82,
       "source": "https://finance.naver.com/item/sise.naver?code=KOSDAQ"
     }
   },
   "fx": {
     "status": "ok",
     "name": "USD/KRW 매매기준율",
-    "notice_date": "26.11.09",
-    "value": 1357.9,
+    "notice_date": "26.11.10",
+    "value": 1355.7,
     "source": "http://www.smbs.biz/ExRate/StdExRate.jsp",
-    "prev_value": 1342.0,
-    "change": 15.9
+    "prev_value": 1357.9,
+    "change": -2.2
   },
   "diesel": {
     "status": "error",
@@ -136,30 +136,8 @@
   },
   "disclosures": {
     "status": "ok",
-    "from": "20261106",
-    "to": "20261109",
-    "items": [
-      {
-        "company": "LS",
-        "stock_code": "006260",
-        "report": "유상증자또는주식관련사채등의발행결과(자율공시)(자회사의 주요경영사항)",
-        "date": "20261106",
-        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106800944"
-      },
-      {
-        "company": "INVENI",
-        "stock_code": "015360",
-        "report": "분기보고서 (2026.09)",
-        "date": "20261106",
-        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106000178"
-      },
-      {
-        "company": "가온전선",
-        "stock_code": "000500",
-        "report": "주식등의대량보유상황보고서(일반)",
-        "date": "20261106",
-        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106000032"
-      }
-    ]
+    "from": "20261107",
+    "to": "20261110",
+    "items": []
   }
 }
