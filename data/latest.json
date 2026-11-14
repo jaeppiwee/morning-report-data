@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-14T07:59+09:00",
+  "collected_at": "2026-11-15T07:53+09:00",
   "stocks": {
     "E1": {
       "status": "ok",
@@ -127,12 +127,12 @@
   },
   "term_sofr_3m": {
     "status": "error",
-    "error": "URLError: <urlopen error [Errno 101] Network is unreachable>"
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>"
   },
   "disclosures": {
     "status": "ok",
-    "from": "20261111",
-    "to": "20261114",
+    "from": "20261112",
+    "to": "20261115",
     "items": [
       {
         "company": "LS마린솔루션",
