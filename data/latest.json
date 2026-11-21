@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-21T08:04+09:00",
+  "collected_at": "2026-11-22T07:57+09:00",
   "stocks": {
     "E1": {
       "status": "ok",
@@ -128,16 +128,16 @@
   "term_sofr_3m": {
     "status": "ok",
     "name": "CME Term SOFR 3M",
-    "date": "2026-11-19",
-    "value": 4.20063,
-    "prev_value": 4.18917,
-    "change": 0.01146,
+    "date": "2026-11-20",
+    "value": 4.20979,
+    "prev_value": 4.20063,
+    "change": 0.00916,
     "source": "https://www.global-rates.com/en/interest-rates/cme-term-sofr/2/term-sofr-interest-3-months/"
   },
   "disclosures": {
     "status": "ok",
-    "from": "20261118",
-    "to": "20261121",
+    "from": "20261119",
+    "to": "20261122",
     "items": []
   }
 }
