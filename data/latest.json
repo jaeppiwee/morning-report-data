@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-22T07:57+09:00",
+  "collected_at": "2026-11-23T07:59+09:00",
   "stocks": {
     "E1": {
       "status": "ok",
@@ -115,11 +115,11 @@
   "fx": {
     "status": "ok",
     "name": "USD/KRW 매매기준율",
-    "notice_date": "26.11.20",
-    "value": 1330.8,
+    "notice_date": "26.11.23",
+    "value": 1337.3,
     "source": "http://www.smbs.biz/ExRate/StdExRate.jsp",
-    "prev_value": 1331.1,
-    "change": -0.3
+    "prev_value": 1330.8,
+    "change": 6.5
   },
   "diesel": {
     "status": "error",
@@ -136,8 +136,23 @@
   },
   "disclosures": {
     "status": "ok",
-    "from": "20261119",
-    "to": "20261122",
-    "items": []
+    "from": "20261120",
+    "to": "20261123",
+    "items": [
+      {
+        "company": "LS",
+        "stock_code": "006260",
+        "report": "[기재정정]단일판매ㆍ공급계약체결(자회사의 주요경영사항)",
+        "date": "20261123",
+        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261123800001"
+      },
+      {
+        "company": "LS",
+        "stock_code": "006260",
+        "report": "[기재정정]단일판매ㆍ공급계약체결(자회사의 주요경영사항)",
+        "date": "20261123",
+        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261123800002"
+      }
+    ]
   }
 }
