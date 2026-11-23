@@ -1,125 +1,125 @@
 {
-  "collected_at": "2026-11-23T07:59+09:00",
+  "collected_at": "2026-11-24T08:12+09:00",
   "stocks": {
     "E1": {
       "status": "ok",
-      "date": "2026-11-20",
-      "close": 76700.0,
-      "prev_close": 77800.0,
-      "change": -1100.0,
-      "change_pct": -1.41,
+      "date": "2026-11-23",
+      "close": 73900.0,
+      "prev_close": 76700.0,
+      "change": -2800.0,
+      "change_pct": -3.65,
       "source": "https://finance.naver.com/item/sise.naver?code=017940"
     },
     "LS네트웍스": {
       "status": "ok",
-      "date": "2026-11-20",
-      "close": 2285.0,
-      "prev_close": 2400.0,
-      "change": -115.0,
-      "change_pct": -4.79,
+      "date": "2026-11-23",
+      "close": 2160.0,
+      "prev_close": 2285.0,
+      "change": -125.0,
+      "change_pct": -5.47,
       "source": "https://finance.naver.com/item/sise.naver?code=000680"
     },
     "LS증권": {
       "status": "ok",
-      "date": "2026-11-20",
-      "close": 5710.0,
-      "prev_close": 6030.0,
-      "change": -320.0,
-      "change_pct": -5.31,
+      "date": "2026-11-23",
+      "close": 5640.0,
+      "prev_close": 5710.0,
+      "change": -70.0,
+      "change_pct": -1.23,
       "source": "https://finance.naver.com/item/sise.naver?code=078020"
     },
     "LS": {
       "status": "ok",
-      "date": "2026-11-20",
-      "close": 166100.0,
-      "prev_close": 181600.0,
-      "change": -15500.0,
-      "change_pct": -8.54,
+      "date": "2026-11-23",
+      "close": 164000.0,
+      "prev_close": 166100.0,
+      "change": -2100.0,
+      "change_pct": -1.26,
       "source": "https://finance.naver.com/item/sise.naver?code=006260"
     },
     "LS ELECTRIC": {
       "status": "ok",
-      "date": "2026-11-20",
-      "close": 108400.0,
-      "prev_close": 121100.0,
-      "change": -12700.0,
-      "change_pct": -10.49,
+      "date": "2026-11-23",
+      "close": 112000.0,
+      "prev_close": 108400.0,
+      "change": 3600.0,
+      "change_pct": 3.32,
       "source": "https://finance.naver.com/item/sise.naver?code=010120"
     },
     "LS에코에너지": {
       "status": "ok",
-      "date": "2026-11-20",
-      "close": 36050.0,
-      "prev_close": 39250.0,
-      "change": -3200.0,
-      "change_pct": -8.15,
+      "date": "2026-11-23",
+      "close": 35850.0,
+      "prev_close": 36050.0,
+      "change": -200.0,
+      "change_pct": -0.55,
       "source": "https://finance.naver.com/item/sise.naver?code=229640"
     },
     "LS마린솔루션": {
       "status": "ok",
-      "date": "2026-11-20",
-      "close": 22550.0,
-      "prev_close": 24100.0,
-      "change": -1550.0,
-      "change_pct": -6.43,
+      "date": "2026-11-23",
+      "close": 22800.0,
+      "prev_close": 22550.0,
+      "change": 250.0,
+      "change_pct": 1.11,
       "source": "https://finance.naver.com/item/sise.naver?code=060370"
     },
     "가온전선": {
       "status": "ok",
-      "date": "2026-11-20",
-      "close": 206500.0,
-      "prev_close": 219500.0,
-      "change": -13000.0,
-      "change_pct": -5.92,
+      "date": "2026-11-23",
+      "close": 219500.0,
+      "prev_close": 206500.0,
+      "change": 13000.0,
+      "change_pct": 6.3,
       "source": "https://finance.naver.com/item/sise.naver?code=000500"
     },
     "LS머트리얼즈": {
       "status": "ok",
-      "date": "2026-11-20",
-      "close": 8690.0,
-      "prev_close": 9370.0,
-      "change": -680.0,
-      "change_pct": -7.26,
+      "date": "2026-11-23",
+      "close": 8530.0,
+      "prev_close": 8690.0,
+      "change": -160.0,
+      "change_pct": -1.84,
       "source": "https://finance.naver.com/item/sise.naver?code=417200"
     },
     "예스코홀딩스": {
       "status": "ok",
-      "date": "2026-11-20",
-      "close": 12690.0,
-      "prev_close": 12900.0,
-      "change": -210.0,
-      "change_pct": -1.63,
+      "date": "2026-11-23",
+      "close": 12400.0,
+      "prev_close": 12690.0,
+      "change": -290.0,
+      "change_pct": -2.29,
       "source": "https://finance.naver.com/item/sise.naver?code=015360"
     }
   },
   "indexes": {
     "코스피": {
       "status": "ok",
-      "date": "2026-11-20",
-      "close": 4869.96,
-      "prev_close": 5137.89,
-      "change": -267.93,
-      "change_pct": -5.21,
+      "date": "2026-11-23",
+      "close": 4708.54,
+      "prev_close": 4869.96,
+      "change": -161.42,
+      "change_pct": -3.31,
       "source": "https://finance.naver.com/item/sise.naver?code=KOSPI"
     },
     "코스닥": {
       "status": "ok",
-      "date": "2026-11-20",
-      "close": 645.68,
-      "prev_close": 684.81,
-      "change": -39.13,
-      "change_pct": -5.71,
+      "date": "2026-11-23",
+      "close": 635.45,
+      "prev_close": 645.68,
+      "change": -10.23,
+      "change_pct": -1.58,
       "source": "https://finance.naver.com/item/sise.naver?code=KOSDAQ"
     }
   },
   "fx": {
     "status": "ok",
     "name": "USD/KRW 매매기준율",
-    "notice_date": "26.11.23",
-    "value": 1337.3,
+    "notice_date": "26.11.24",
+    "value": 1346.6,
     "source": "http://www.smbs.biz/ExRate/StdExRate.jsp",
-    "prev_value": 1330.8,
-    "change": 6.5
+    "prev_value": 1337.3,
+    "change": 9.3
   },
   "diesel": {
     "status": "error",
@@ -136,9 +136,30 @@
   },
   "disclosures": {
     "status": "ok",
-    "from": "20261120",
-    "to": "20261123",
+    "from": "20261121",
+    "to": "20261124",
     "items": [
+      {
+        "company": "INVENI",
+        "stock_code": "015360",
+        "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "date": "20261123",
+        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261123000080"
+      },
+      {
+        "company": "INVENI",
+        "stock_code": "015360",
+        "report": "주식등의대량보유상황보고서(일반)",
+        "date": "20261123",
+        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261123000079"
+      },
+      {
+        "company": "INVENI",
+        "stock_code": "015360",
+        "report": "최대주주등소유주식변동신고서",
+        "date": "20261123",
+        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261123800212"
+      },
       {
         "company": "LS",
         "stock_code": "006260",
